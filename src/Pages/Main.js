@@ -64,6 +64,15 @@ const Main = () => {
                 <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel adipiscing aliqua.</p>
                </div>
             </div>
+            <div className="featureUnit">
+               <img src="assets/features/feature1.png" />
+               <div className="featureUnitHeader">
+                <p>Departments</p>
+               </div>
+               <div className="featureUnitDesc">
+                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel adipiscing aliqua.</p>
+               </div>
+            </div>
           </div>
       </div>
     </div>

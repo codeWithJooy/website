@@ -104,6 +104,15 @@ body {
   color:#57647c;
   font-size: 18px;
 }
+.featuresContainer{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featureUnit{
+  width:33.33%;
+}
 /*===================================================
                Feature Section Ends
 ====================================================*/
