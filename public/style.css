@@ -40,6 +40,14 @@ body {
 }
 .headerLogo {
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.hamburger{
+  position: absolute;
+  right:20px;
 }
 .headerLinks {
   width: 50%;
@@ -53,7 +61,14 @@ body {
   color: #fff;
   cursor: pointer;
 }
-
+@media screen and (min-width:200px) and (max-width:1024px) {
+  .headerLogo{
+    width:100%;
+  }  
+  .headerLinks{
+      display:none;
+    }
+}
 /*==========================================
             Header Section Ends
 ==========================================*/
@@ -63,6 +78,7 @@ body {
   height: 86vh;
   background: "red";
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -79,12 +95,27 @@ body {
   width:80%;
   height: auto;
 }
+@media screen and (min-width:200px) and (max-width:1024px) {
+  .topContentImage{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .topContentImage img{
+    width:100%;
+    height:auto;
+  }
+}
 /*===================================================
                Feature Section Starts
 ====================================================*/
 .featureSection{
   width:100%;
-  padding:10px 15px;
+  padding:50px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .featureHeaderText{
   width:100%;
@@ -97,21 +128,49 @@ body {
   font-weight: 700;
 }
 .featureHeaderDesc{
-  width:100%;
+  width:50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   color:#57647c;
   font-size: 18px;
 }
 .featuresContainer{
   width:100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 30px 10px;
+
 }
 .featureUnit{
   width:33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width:200px) and (max-width:900px) {
+   .featureUnit{
+    width:100%;
+    margin:30px 0px;
+   }
+}
+.featureUnit .featureUnitHeader{
+  width:100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.featureUnit .featureUnitDesc{
+  width:80%;
+  text-align: center;
+  font-size: 14px;
+  color:#57647c;
 }
 /*===================================================
                Feature Section Ends

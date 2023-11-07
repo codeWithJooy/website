@@ -8,6 +8,7 @@ const Main = () => {
           <div className="headerContainer">
             <div className="headerLogo">
               <img src="assets/main/logo.png" />
+              <img src="assets/main/hamburger.png" className="hamburger"/>
             </div>
             <div className="headerLinks">
               <div className="linkUnit">
@@ -56,7 +57,7 @@ const Main = () => {
                </div>
             </div>
             <div className="featureUnit">
-               <img src="assets/features/feature1.png" />
+               <img src="assets/features/feature2.png" />
                <div className="featureUnitHeader">
                 <p>Departments</p>
                </div>
@@ -65,7 +66,7 @@ const Main = () => {
                </div>
             </div>
             <div className="featureUnit">
-               <img src="assets/features/feature1.png" />
+               <img src="assets/features/feature3.png" />
                <div className="featureUnitHeader">
                 <p>Departments</p>
                </div>
