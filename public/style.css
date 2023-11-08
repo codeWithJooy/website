@@ -81,6 +81,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 0px 20px;
 }
 .topContentText{
   width:50%;
@@ -95,7 +96,57 @@ body {
   width:80%;
   height: auto;
 }
+.contentHead{
+  width:100%;
+  color:#fff;
+  font-size: 18px;
+}
+.contentMain{
+  width:80%;
+  color:#fff;
+  font-size:75px;
+  font-weight: bold;
+  margin:10px 0px;
+}
+.contentDesc{
+   width:100%;
+   color:#fff;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 1.6;
+   padding-right: 150px;
+}
+.contentQuote{
+  width:100%;
+  margin:10px 0px 20px;
+}
+.contentQuote button{
+  padding:18px 25px;
+  border-radius: 30px;
+  border:none;
+  outline:none;
+  background: #ffc107;
+  color:#fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
 @media screen and (min-width:200px) and (max-width:1024px) {
+  .topContent{
+    padding: 30px 0px 20px 0px;
+  }
+  .topContentText{
+    width:100%;
+    padding-top: 20px;
+   
+  }
+  .contentMain{
+    font-size: 40px;
+  }
+  .contentDesc{
+    padding-right:0px;
+    font-size: 18px;
+  }
   .topContentImage{
     width:100%;
     align-items: center;
@@ -111,7 +162,7 @@ body {
 ====================================================*/
 .featureSection{
   width:100%;
-  padding:50px 15px;
+  padding:120px 15px 50px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -153,6 +204,15 @@ body {
   flex-wrap: wrap;
 }
 @media screen and (min-width:200px) and (max-width:900px) {
+  .featureHeaderText p{
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .featureHeaderDesc{
+    width:100%;
+    margin-top: 15px;
+    padding:0x 25px;
+  }
    .featureUnit{
     width:100%;
     margin:30px 0px;
@@ -161,7 +221,7 @@ body {
 .featureUnit .featureUnitHeader{
   width:100%;
   text-align: center;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -169,9 +229,111 @@ body {
 .featureUnit .featureUnitDesc{
   width:80%;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   color:#57647c;
 }
 /*===================================================
                Feature Section Ends
+====================================================*/
+/*===================================================
+               Points Section Starts
+====================================================*/
+.pointsSection{
+  width:100%;
+  padding:50px 10px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+
+}
+.pointsLeft{
+  width:33.33%;
+}
+.pointLeftUnit{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.pointsLeftTop{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color:rgba(12, 165, 157, 1);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.pointsLeftTop img{
+  width: 35px;
+  height:35px;
+  margin-left: 10px;
+}
+.pointsLeftDesc{
+  width:70%;
+  margin-left: 30%;
+  display: flex;
+  justify-content: flex-end;
+  color:#57647c;
+  font-size: 16px;
+}
+.pointsMiddle{
+  width:33.33%;
+}
+.pointsMiddle img{
+  width:100%;
+  height:auto;
+}
+.pointsRight{
+  width:33.33%;
+}
+.pointRightUnit{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex;
+  margin-bottom: 50px;
+}
+.pointsRightTop{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color:rgba(12, 165, 157, 1);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.pointsRightTop img{
+  width: 35px;
+  height:35px;
+  margin-right: 10px;
+}
+.pointsRightDesc{
+  width:80%;
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (min-width:200px) and (max-width:1024px) {
+  .pointsSection{
+    padding: 0px 20px;
+  } 
+  .pointsLeft,.pointsMiddle,.pointsRight{
+    width:100%;
+   }
+   .pointsLeftTop,.pointsRightTop{
+    justify-content: flex-start;
+   }
+   .pointsLeftDesc,.pointsRightDesc{
+    width:100%;
+    margin:0;
+    justify-content: flex-start;
+   }
+}
+/*===================================================
+               Points Section Ends
 ====================================================*/
