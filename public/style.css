@@ -337,3 +337,140 @@ body {
 /*===================================================
                Points Section Ends
 ====================================================*/
+/*===================================================
+               Testimonial Section Starts
+====================================================*/
+.testimonialSection{
+  width:100%;
+  padding:50px 10px;
+  background: rgb(12, 165, 157);
+  background: linear-gradient(
+    38deg,
+    rgba(12, 165, 157, 1) 62%,
+    rgba(0, 168, 255, 1) 81%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+}
+.testimonialHolder{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.testimonialHeader{
+  width: 100%;
+  max-width: 620px;
+  text-align: center;
+  color:#fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.testimonialDesc{
+  width: 100%;
+  max-width: 520px;
+  text-align: center;
+  color:#fff;
+  font-size: 16px;
+  line-height: 1.8;
+}
+/*====================================================
+                 Tesimonial Section Ends
+====================================================*/
+/*====================================================
+                 Footer Section Starts
+====================================================*/
+.footer{
+  width:100%;
+  min-height:80px;
+  background-color: #182c51;
+  padding:100px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color:#fff;
+}
+.footerDesc{
+  width:80%;
+  max-width: 300px;
+  font-size: 15px;
+  color: #fff;
+  margin: 15px 0px;
+}
+.footerSocial{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.socialUnit{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-color: #333333;
+  line-height: 36px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.socialUnit:hover{
+  background-color: #ffac00;
+}
+.footerMain{
+  width:31%;
+  padding-right: 30px;
+}
+.footerUnit{
+  width:23%;
+}
+.footerUnitHeader{
+  width:100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.footerUnitBorder{
+  width:15%;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  border:1px solid #ffac00;
+}
+.footerUnitLinks{
+  width:"100%";
+}
+.footerLink{
+  width:100%;
+  margin:12px 0px;
+}
+.footerLink a{
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media screen and (max-width:900px) {
+  .footerMain{
+    width:100%;
+  }
+  .footerUnit{
+    width:100%;
+    margin:20px 0px;
+  }
+  .footerDesc{
+    width:100%;
+    max-width: 100%;
+    font-size: 15px;
+    color: #fff;
+    margin: 25px 0px;
+  }
+}
+/*====================================================
+                 Footer Section Ends
+====================================================*/
