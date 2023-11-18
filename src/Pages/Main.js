@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Main = () => {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const isStickyHeader = scrollPosition > 100;
+      setSticky(isStickyHeader);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="main">
       <div className="topSection">
-        <div className="header">
+      <div className={`${isSticky ? "headerSticky" : "header"}`}>
           <div className="headerContainer">
             <div className="headerLogo">
               <img src="assets/main/logo.png" />
@@ -203,7 +219,11 @@ const Main = () => {
             <img src="assets/main/logo.png" />
           </div>
           <div className="footerDesc">
-            <p>We are a dynamic web and app development startup, specializing in bespoke digital solutions.With a focus on innovation and excellence, we bring your digital vision to life.</p>
+            <p>
+              We are a dynamic web and app development startup, specializing in
+              bespoke digital solutions.With a focus on innovation and
+              excellence, we bring your digital vision to life.
+            </p>
           </div>
           <div className="footerSocial">
             <div className="socialUnit">
