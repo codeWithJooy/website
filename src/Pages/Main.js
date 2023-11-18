@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Main = () => {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const isStickyHeader = scrollPosition > 100;
+      setSticky(isStickyHeader);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="main">
       <div className="topSection">
-        <div className="header">
+      <div className={`${isSticky ? "headerSticky" : "header"}`}>
           <div className="headerContainer">
             <div className="headerLogo">
               <img src="assets/main/logo.png" />
@@ -178,6 +194,112 @@ const Main = () => {
                 Lorem ipsum dolor sit amet consem et ctetuering adipisc elit sed
                 diam.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="testimonialSection">
+        <div className="testimonialHolder">
+          <div className="testimonialHeader">
+            <p>Trusted by over 250,000 business owners</p>
+          </div>
+        </div>
+        <div className="testimonialHolder">
+          <div className="testimonialDesc">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footerMain">
+          <div className="footerLogo">
+            <img src="assets/main/logo.png" />
+          </div>
+          <div className="footerDesc">
+            <p>
+              We are a dynamic web and app development startup, specializing in
+              bespoke digital solutions.With a focus on innovation and
+              excellence, we bring your digital vision to life.
+            </p>
+          </div>
+          <div className="footerSocial">
+            <div className="socialUnit">
+              <img src="assets/footer/facebook.png" />
+            </div>
+            <div className="socialUnit">
+              <img src="assets/footer/facebook.png" />
+            </div>
+            <div className="socialUnit">
+              <img src="assets/footer/facebook.png" />
+            </div>
+            <div className="socialUnit">
+              <img src="assets/footer/facebook.png" />
+            </div>
+          </div>
+        </div>
+        <div className="footerUnit">
+          <div className="footerUnitHeader">
+            <p>Services</p>
+          </div>
+          <div className="footerUnitBorder"></div>
+          <div className="footerUnitLinks">
+            <div className="footerLink">
+              <a>Custom Web Development</a>
+            </div>
+            <div className="footerLink">
+              <a>Mobile App Development</a>
+            </div>
+            <div className="footerLink">
+              <a>E-commerce Solutions</a>
+            </div>
+            <div className="footerLink">
+              <a>UI/UX Design Services</a>
+            </div>
+            <div className="footerLink">
+              <a>Technology Consulting</a>
+            </div>
+          </div>
+        </div>
+        <div className="footerUnit">
+          <div className="footerUnitHeader">
+            <p>Quick Links</p>
+          </div>
+          <div className="footerUnitBorder"></div>
+          <div className="footerUnitLinks">
+            <div className="footerLink">
+              <a>About Us</a>
+            </div>
+            <div className="footerLink">
+              <a>Features</a>
+            </div>
+            <div className="footerLink">
+              <a>Blog</a>
+            </div>
+            <div className="footerLink">
+              <a>Team</a>
+            </div>
+            <div className="footerLink">
+              <a>Contact</a>
+            </div>
+          </div>
+        </div>
+        <div className="footerUnit">
+          <div className="footerUnitHeader">
+            <p>Contacts</p>
+          </div>
+          <div className="footerUnitBorder"></div>
+          <div className="footerUnitLinks">
+            <div className="footerLink">
+              <a>2750 Quadra Street Victoria, Canada</a>
+            </div>
+            <div className="footerLink">
+              <a>alpas@gmail.com</a>
+            </div>
+            <div className="footerLink">
+              <a> +44 587 154756</a>
             </div>
           </div>
         </div>
