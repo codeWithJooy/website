@@ -1,50 +1,11 @@
 import React, { useState, useEffect } from "react";
+import Header from "../Components/Header/Header";
 
 const Main = () => {
-  const [isSticky, setSticky] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      const isStickyHeader = scrollPosition > 100;
-      setSticky(isStickyHeader);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <div className="main">
       <div className="topSection">
-      <div className={`${isSticky ? "headerSticky" : "header"}`}>
-          <div className="headerContainer">
-            <div className="headerLogo">
-              <img src="assets/main/logo.png" />
-              <img src="assets/main/hamburger.png" className="hamburger" />
-            </div>
-            <div className="headerLinks">
-              <div className="linkUnit">
-                <p>Home</p>
-              </div>
-              <div className="linkUnit">
-                <p>About Us</p>
-              </div>
-              <div className="linkUnit">
-                <p>Our Products</p>
-              </div>
-              <div className="linkUnit">
-                <p>Blogs</p>
-              </div>
-              <div className="linkUnit">
-                <p>Contact Us</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Header />
         <div className="topContent">
           <div className="topContentText">
             <div className="contentHead">
