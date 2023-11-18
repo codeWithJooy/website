@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Header from "../Components/Header/Header";
-
+import Loader from "../Components/Loader/Loader";
 const Main = () => {
   return (
-    <div className="main">
+   <Loader>
+     <div className="main">
       <div className="topSection">
-        <Header />
+        <Header page={"home"}/>
         <div className="topContent">
           <div className="topContentText">
             <div className="contentHead">
@@ -266,6 +267,7 @@ const Main = () => {
         </div>
       </div>
     </div>
+   </Loader>
   );
 };
 
