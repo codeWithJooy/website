@@ -40,7 +40,7 @@ body {
 }
 @media screen and (max-width:990px) {
   .topSectionPage{
-    height:45vh;
+    height:50vh;
   }
 }
 /*==========================================
@@ -80,6 +80,7 @@ body {
 .hamburger{
   position: absolute;
   right:20px;
+  display: none;
 }
 .headerLinks {
   width: 50%;
@@ -87,11 +88,74 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.linkUnitActive p{
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  color:#ffac00
+}
 .linkUnit p {
   font-size: 17px;
   font-weight: bold;
   color: #fff;
   cursor: pointer;
+}
+.linkUnit:hover p{
+  color:#ffac00;
+  font-size: 18;
+}
+.headerDropDown {
+  width: 100%;
+  height: 0; /* Start with height as 0 */
+  background: rgb(12, 165, 157);
+  margin-top: 10px;
+  z-index: 1000000001;
+  overflow: hidden; /* Hide overflowing content */
+  transition: height 0.7s ease; /* Add transition for height property */
+}
+
+.headerDropDown.active {
+  min-height: 240px; /* Set the desired height when active */
+}
+
+.dropDownUnit {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 10px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  z-index: 1000000001;
+  opacity: 0;
+  transform: translateY(20px); /* Start with a slight translation */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Add transitions for opacity and transform properties */
+}
+.pageSelected p{
+  color:#ffac00;
+  font-size: 15px;
+}
+.headerDropDown.active .dropDownUnit {
+  opacity: 1;
+  transform: translateY(0); /* Set opacity to 1 when dropdown is active */
+}
+.dropDownUnit:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.dropDownUnit:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.dropDownUnit:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.dropDownUnit:nth-child(4) {
+  transition-delay: 0.2s;
+}
+
+.dropDownUnit:nth-child(5) {
+  transition-delay: 0.3s;
 }
 @media screen and (min-width:200px) and (max-width:1024px) {
   .headerLogo{
@@ -99,6 +163,9 @@ body {
   }  
   .headerLinks{
       display:none;
+    }
+    .hamburger{
+      display: block;
     }
 }
 /*==========================================

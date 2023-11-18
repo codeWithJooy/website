@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
-const Header = () => {
+const Header = ({page}) => {
   const [isSticky, setSticky] = useState(false);
+  const [dropDown,setDropDown]=useState(false);
+
   const history=useHistory()
+  
+  const dropToggle=()=>{
+    setDropDown(!dropDown)
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,28 +27,47 @@ const Header = () => {
   return (
     <div className={`${isSticky ? "headerSticky" : "header"}`}>
       <div className="headerContainer">
-        <div className="headerLogo">
+        <div className="headerLogo" onClick={dropToggle}>
           <img src="assets/main/logo.png" />
           <img src="assets/main/hamburger.png" className="hamburger" />
         </div>
         <div className="headerLinks">
-          <div className="linkUnit" onClick={()=>history.push("/")}>
+          <div className={`${page=="home" ?"linkUnitActive":"linkUnit"}`} onClick={()=>history.push("/")}>
             <p>Home</p>
           </div>
-          <div className="linkUnit" onClick={()=>history.push("/about")}>
+          <div className={`${page=="about" ?"linkUnitActive":"linkUnit"}`} onClick={()=>history.push("/about")}>
             <p>About Us</p>
           </div>
-          <div className="linkUnit">
+          <div className={`${page=="products" ?"linkUnitActive":"linkUnit"}`}>
             <p>Our Products</p>
           </div>
-          <div className="linkUnit">
+          <div className={`${page=="blogs" ?"linkUnitActive":"linkUnit"}`}>
             <p>Blogs</p>
           </div>
-          <div className="linkUnit">
+          <div className={`${page=="contacts" ?"linkUnitActive":"linkUnit"}`}>
             <p>Contact Us</p>
           </div>
         </div>
       </div>
+      
+        <div className={`headerDropDown ${dropDown ? 'active' : ''}`}>
+        <div className={`dropDownUnit ${page=="home" ?"pageSelected":""}`} onClick={()=>history.push("/")}>
+            <p>Home</p>
+        </div>
+        <div className={`dropDownUnit ${page=="about" ?"pageSelected":""}`} onClick={()=>history.push("/about")} >
+            <p>About</p>
+        </div>
+        <div className={`dropDownUnit ${page=="products" ?"pageSelected":""}`}>
+            <p>Our Products</p>
+        </div>
+        <div className={`dropDownUnit ${page=="blogs" ?"pageSelected":""}`}>
+            <p>Blogs</p>
+        </div>
+        <div className={`dropDownUnit ${page=="contacts" ?"pageSelected":""}`}>
+            <p>Contact Us</p>
+        </div>
+      </div>
+      
     </div>
   );
 };
