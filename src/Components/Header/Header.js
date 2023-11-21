@@ -44,7 +44,7 @@ const Header = ({page}) => {
           <div className={`${page=="blogs" ?"linkUnitActive":"linkUnit"}`}>
             <p>Blogs</p>
           </div>
-          <div className={`${page=="contacts" ?"linkUnitActive":"linkUnit"}`}>
+          <div className={`${page=="contact" ?"linkUnitActive":"linkUnit"}`} onClick={()=>history.push("/contact")}>
             <p>Contact Us</p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Header = ({page}) => {
         <div className={`dropDownUnit ${page=="blogs" ?"pageSelected":""}`}>
             <p>Blogs</p>
         </div>
-        <div className={`dropDownUnit ${page=="contacts" ?"pageSelected":""}`}>
+        <div className={`dropDownUnit ${page=="contact" ?"pageSelected":""}`} onClick={()=>history.push("/contact")}>
             <p>Contact Us</p>
         </div>
       </div>

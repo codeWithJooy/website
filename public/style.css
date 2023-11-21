@@ -9,7 +9,7 @@ body {
   height: 100%;
   font-size: 15px;
   font-family: "Dosis", sans-serif;
-  color:#333;
+  color: #333;
 }
 .main {
   width: "100%";
@@ -38,9 +38,9 @@ body {
   background-size: cover;
   background-image: url(https://themes.envytheme.com/alpas/wp-content/uploads/2019/11/page-title-bg-5.png);
 }
-@media screen and (max-width:990px) {
-  .topSectionPage{
-    height:50vh;
+@media screen and (max-width: 990px) {
+  .topSectionPage {
+    height: 50vh;
   }
 }
 /*==========================================
@@ -48,10 +48,10 @@ body {
 ==========================================*/
 .header {
   width: 100%;
-  height:10vh;
-  padding:10px 20px;
+  height: 10vh;
+  padding: 10px 20px;
 }
-.headerSticky{
+.headerSticky {
   position: fixed;
   top: 0;
   width: 100%;
@@ -61,8 +61,8 @@ body {
     rgba(12, 165, 157, 1) 62%,
     rgba(0, 168, 255, 1) 81%
   );
-  z-index: 1000; 
-  padding: 15px 20px ;
+  z-index: 1000;
+  padding: 15px 20px;
 }
 .headerContainer {
   width: 100%;
@@ -77,9 +77,9 @@ body {
   justify-content: flex-start;
   position: relative;
 }
-.hamburger{
+.hamburger {
   position: absolute;
-  right:20px;
+  right: 20px;
   display: none;
 }
 .headerLinks {
@@ -88,11 +88,11 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-.linkUnitActive p{
+.linkUnitActive p {
   font-size: 19px;
   font-weight: bold;
   cursor: pointer;
-  color:#ffac00
+  color: #ffac00;
 }
 .linkUnit p {
   font-size: 17px;
@@ -100,8 +100,8 @@ body {
   color: #fff;
   cursor: pointer;
 }
-.linkUnit:hover p{
-  color:#ffac00;
+.linkUnit:hover p {
+  color: #ffac00;
   font-size: 18;
 }
 .headerDropDown {
@@ -131,8 +131,8 @@ body {
   transform: translateY(20px); /* Start with a slight translation */
   transition: opacity 0.3s ease, transform 0.3s ease; /* Add transitions for opacity and transform properties */
 }
-.pageSelected p{
-  color:#ffac00;
+.pageSelected p {
+  color: #ffac00;
   font-size: 15px;
 }
 .headerDropDown.active .dropDownUnit {
@@ -157,22 +157,22 @@ body {
 .dropDownUnit:nth-child(5) {
   transition-delay: 0.3s;
 }
-@media screen and (min-width:200px) and (max-width:1024px) {
-  .headerLogo{
-    width:100%;
-  }  
-  .headerLinks{
-      display:none;
-    }
-    .hamburger{
-      display: block;
-    }
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .headerLogo {
+    width: 100%;
+  }
+  .headerLinks {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }
 /*==========================================
             Header Section Ends
 ==========================================*/
-.topContent{
-  flex:1;
+.topContent {
+  flex: 1;
   width: 100%;
   height: 86vh;
   background: "red";
@@ -182,8 +182,8 @@ body {
   justify-content: center;
   padding: 0px 40px;
 }
-.topContentPage{
-  flex:1;
+.topContentPage {
+  flex: 1;
   width: 100%;
   height: 100%;
   background: "red";
@@ -193,161 +193,158 @@ body {
   justify-content: center;
   padding: 0px 40px;
 }
-.topHeadingPage{
+.topHeadingPage {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.4;
   color: #fff;
-
 }
-.topContentText{
-  width:50%;
+.topContentText {
+  width: 50%;
 }
-.topContentImage{
-  width:50%;
+.topContentImage {
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.topContentImage img{
-  width:80%;
+.topContentImage img {
+  width: 80%;
   height: auto;
 }
-.contentHead{
-  width:100%;
-  color:#fff;
+.contentHead {
+  width: 100%;
+  color: #fff;
   font-size: 18px;
 }
-.contentMain{
-  width:80%;
-  color:#fff;
-  font-size:75px;
+.contentMain {
+  width: 80%;
+  color: #fff;
+  font-size: 75px;
   font-weight: bold;
-  margin:10px 0px;
+  margin: 10px 0px;
 }
-.contentDesc{
-   width:100%;
-   color:#fff;
-   font-size: 22px;
-   font-weight: 400;
-   line-height: 1.6;
-   padding-right: 150px;
+.contentDesc {
+  width: 100%;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-right: 150px;
 }
-.contentQuote{
-  width:100%;
-  margin:10px 0px 20px;
+.contentQuote {
+  width: 100%;
+  margin: 10px 0px 20px;
 }
-.contentQuote button{
-  padding:18px 25px;
+.contentQuote button {
+  padding: 18px 25px;
   border-radius: 30px;
-  border:none;
-  outline:none;
+  border: none;
+  outline: none;
   background: #ffc107;
-  color:#fff;
+  color: #fff;
   font-size: 15px;
   font-weight: bold;
   margin-top: 10px;
 }
-@media screen and (min-width:200px) and (max-width:1024px) {
-  .topContent{
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .topContent {
     padding: 30px 20px 20px 20px;
   }
-  .topContentText{
-    width:100%;
+  .topContentText {
+    width: 100%;
     padding-top: 20px;
-   
   }
-  .contentMain{
+  .contentMain {
     font-size: 40px;
   }
-  .contentDesc{
-    padding-right:0px;
+  .contentDesc {
+    padding-right: 0px;
     font-size: 18px;
   }
-  .topContentImage{
-    width:100%;
+  .topContentImage {
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
-  .topContentImage img{
-    width:100%;
-    height:auto;
+  .topContentImage img {
+    width: 100%;
+    height: auto;
   }
 }
 /*===================================================
                Feature Section Starts
 ====================================================*/
-.featureSection{
-  width:100%;
-  padding:120px 15px 50px;
+.featureSection {
+  width: 100%;
+  padding: 120px 15px 50px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-.featureHeaderText{
-  width:100%;
+.featureHeaderText {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.featureHeaderText p{
+.featureHeaderText p {
   font-size: 40px;
   font-weight: 700;
 }
-.featureHeaderDesc{
-  width:50%;
+.featureHeaderDesc {
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color:#57647c;
+  color: #57647c;
   font-size: 18px;
 }
-.featuresContainer{
-  width:100%;
+.featuresContainer {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 30px 10px;
-
 }
-.featureUnit{
-  width:33.33%;
+.featureUnit {
+  width: 33.33%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-@media screen and (min-width:200px) and (max-width:900px) {
-  .featureHeaderText p{
+@media screen and (min-width: 200px) and (max-width: 900px) {
+  .featureHeaderText p {
     font-size: 35px;
     font-weight: 700;
   }
-  .featureHeaderDesc{
-    width:100%;
+  .featureHeaderDesc {
+    width: 100%;
     margin-top: 15px;
-    padding:0x 25px;
+    padding: 0x 25px;
   }
-   .featureUnit{
-    width:100%;
-    margin:30px 0px;
-   }
+  .featureUnit {
+    width: 100%;
+    margin: 30px 0px;
+  }
 }
-.featureUnit .featureUnitHeader{
-  width:100%;
+.featureUnit .featureUnitHeader {
+  width: 100%;
   text-align: center;
   font-size: 22px;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.featureUnit .featureUnitDesc{
-  width:80%;
+.featureUnit .featureUnitDesc {
+  width: 80%;
   text-align: center;
   font-size: 18px;
-  color:#57647c;
+  color: #57647c;
 }
 /*===================================================
                Feature Section Ends
@@ -355,101 +352,104 @@ body {
 /*===================================================
                Points Section Starts
 ====================================================*/
-.pointsSection{
-  width:100%;
-  padding:50px 10px;
+.pointsSection {
+  width: 100%;
+  padding: 50px 10px;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-
 }
-.pointsLeft{
-  width:33.33%;
+.pointsLeft {
+  width: 33.33%;
 }
-.pointLeftUnit{
-  width:100%;
+.pointLeftUnit {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-bottom: 50px;
 }
-.pointsLeftTop{
-  width:100%;
+.pointsLeftTop {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  color:rgba(12, 165, 157, 1);
+  color: rgba(12, 165, 157, 1);
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.pointsLeftTop img{
+.pointsLeftTop img {
   width: 35px;
-  height:35px;
+  height: 35px;
   margin-left: 10px;
 }
-.pointsLeftDesc{
-  width:70%;
+.pointsLeftDesc {
+  width: 70%;
   margin-left: 30%;
   display: flex;
   justify-content: flex-end;
-  color:#57647c;
+  color: #57647c;
   font-size: 16px;
 }
-.pointsMiddle{
-  width:33.33%;
+.pointsMiddle {
+  width: 33.33%;
 }
-.pointsMiddle img{
-  width:100%;
-  height:auto;
+.pointsMiddle img {
+  width: 100%;
+  height: auto;
 }
-.pointsRight{
-  width:33.33%;
+.pointsRight {
+  width: 33.33%;
 }
-.pointRightUnit{
-  width:100%;
+.pointRightUnit {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex;
   margin-bottom: 50px;
 }
-.pointsRightTop{
-  width:100%;
+.pointsRightTop {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  color:rgba(12, 165, 157, 1);
+  color: rgba(12, 165, 157, 1);
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.pointsRightTop img{
+.pointsRightTop img {
   width: 35px;
-  height:35px;
+  height: 35px;
   margin-right: 10px;
 }
-.pointsRightDesc{
-  width:80%;
+.pointsRightDesc {
+  width: 80%;
   display: flex;
   justify-content: flex-start;
 }
-@media screen and (min-width:200px) and (max-width:1024px) {
-  .pointsSection{
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .pointsSection {
     padding: 0px 20px;
-  } 
-  .pointsLeft,.pointsMiddle,.pointsRight{
-    width:100%;
-   }
-   .pointsLeftTop,.pointsRightTop{
+  }
+  .pointsLeft,
+  .pointsMiddle,
+  .pointsRight {
+    width: 100%;
+  }
+  .pointsLeftTop,
+  .pointsRightTop {
     justify-content: flex-start;
-   }
-   .pointsLeftDesc,.pointsRightDesc{
-    width:100%;
-    margin:0;
+  }
+  .pointsLeftDesc,
+  .pointsRightDesc {
+    width: 100%;
+    margin: 0;
     justify-content: flex-start;
-   }
+  }
 }
 /*===================================================
                Points Section Ends
@@ -457,9 +457,9 @@ body {
 /*===================================================
                Testimonial Section Starts
 ====================================================*/
-.testimonialSection{
-  width:100%;
-  padding:50px 10px;
+.testimonialSection {
+  width: 100%;
+  padding: 50px 10px;
   background: rgb(12, 165, 157);
   background: linear-gradient(
     38deg,
@@ -468,29 +468,29 @@ body {
   );
   display: flex;
   flex-wrap: wrap;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
-.testimonialHolder{
-  width:100%;
+.testimonialHolder {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
 }
-.testimonialHeader{
+.testimonialHeader {
   width: 100%;
   max-width: 620px;
   text-align: center;
-  color:#fff;
+  color: #fff;
   font-size: 40px;
   font-weight: bold;
 }
-.testimonialDesc{
+.testimonialDesc {
   width: 100%;
   max-width: 520px;
   text-align: center;
-  color:#fff;
+  color: #fff;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -500,31 +500,31 @@ body {
 /*====================================================
                  Footer Section Starts
 ====================================================*/
-.footer{
-  width:100%;
-  min-height:80px;
+.footer {
+  width: 100%;
+  min-height: 80px;
   background-color: #182c51;
-  padding:100px 30px;
+  padding: 100px 30px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  color:#fff;
+  color: #fff;
 }
-.footerDesc{
-  width:80%;
+.footerDesc {
+  width: 80%;
   max-width: 300px;
   font-size: 15px;
   color: #fff;
   margin: 15px 0px;
 }
-.footerSocial{
-  width:100%;
+.footerSocial {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.socialUnit{
+.socialUnit {
   width: 35px;
   height: 35px;
   margin-right: 10px;
@@ -538,50 +538,50 @@ body {
   justify-content: center;
   cursor: pointer;
 }
-.socialUnit:hover{
+.socialUnit:hover {
   background-color: #ffac00;
 }
-.footerMain{
-  width:31%;
+.footerMain {
+  width: 31%;
   padding-right: 30px;
 }
-.footerUnit{
-  width:23%;
+.footerUnit {
+  width: 23%;
 }
-.footerUnitHeader{
-  width:100%;
+.footerUnitHeader {
+  width: 100%;
   font-size: 25px;
   font-weight: bold;
 }
-.footerUnitBorder{
-  width:15%;
+.footerUnitBorder {
+  width: 15%;
   margin-top: 5px;
   margin-bottom: 25px;
-  border:1px solid #ffac00;
+  border: 1px solid #ffac00;
 }
-.footerUnitLinks{
-  width:"100%";
+.footerUnitLinks {
+  width: "100%";
 }
-.footerLink{
-  width:100%;
-  margin:12px 0px;
+.footerLink {
+  width: 100%;
+  margin: 12px 0px;
 }
-.footerLink a{
+.footerLink a {
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
 }
-@media screen and (max-width:900px) {
-  .footerMain{
-    width:100%;
+@media screen and (max-width: 900px) {
+  .footerMain {
+    width: 100%;
   }
-  .footerUnit{
-    width:100%;
-    margin:20px 0px;
+  .footerUnit {
+    width: 100%;
+    margin: 20px 0px;
   }
-  .footerDesc{
-    width:100%;
+  .footerDesc {
+    width: 100%;
     max-width: 100%;
     font-size: 15px;
     color: #fff;
@@ -590,4 +590,212 @@ body {
 }
 /*====================================================
                  Footer Section Ends
+====================================================*/
+/*====================================================
+                 About Section Ends
+====================================================*/
+.aboutUs {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutCardSection {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.abouText {
+  width: 40%;
+}
+.aboutTextTop {
+  width: 100%;
+  font-size: 15;
+  font-weight: bold;
+  color: #0ca59d;
+}
+.aboutTextHeader {
+  width: 100%;
+  max-width: 520px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.aboutTextMain {
+  width: 80%;
+  padding-right: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.aboutImage {
+  width: 60%;
+}
+.aboutImage img {
+  height: 100%;
+  width: 100%;
+}
+.aboutCard {
+  width: 30%;
+  padding: 20px 30px;
+  background-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.aboutCard:hover {
+  background: #fff;
+  box-shadow: 0 0 10px lightgray;
+}
+.aboutCardHeader {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.aboutCardDesc {
+  font-size: 14px;
+}
+
+/*====================================================
+                 About Section Ends
+====================================================*/
+/*====================================================
+                 Contact Section Ends
+====================================================*/
+.contactSection {
+  width: 100%;
+  padding: 30px 100px;
+}
+
+.contactTextSection {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.contactTextTop {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0ca59d;
+}
+.contactTextHeader {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333333;
+}
+.contactTextDesc {
+  width: 600px;
+  text-align: center;
+  padding: 20px 50px;
+  color: #57647c;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.contactFormSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formPic {
+  width: 33.33%;
+}
+.formBox {
+  width: 66.66%;
+}
+.formRow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formUnit {
+  width: 50%;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.formTextBox {
+  width: 100%;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.formUnit input {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  color: #57647c;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+}
+.formTextBox textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 15px;
+  color: #57647c;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+}
+.formButton{
+  margin-left: 10px;
+  padding: 15px 30px 15px;
+  font-size: 17px;
+  margin-top: 5px;
+  -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+  box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+ background-color: #0ca59d;
+ border-radius: 25px;
+ border: none;
+ outline: none;
+ color:#fff;
+ font-size: 15px;
+ font-weight: bold;
+ cursor: pointer;
+}
+.formButton:hover{
+  background-color: #ffac00;
+}
+@media screen and (max-width:1024px) {
+  .contactSection{
+    padding:30px 20px;
+  }
+  .contactTextHeader {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  .contactTextDesc{
+    padding:20px;
+  }
+  .formPic{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .formPic img{
+    width:80%;
+    height:auto;
+  }
+  .formBox{
+    width:100%;
+  }
+  .formUnit{
+    width:100%;
+  }
+}
+/*====================================================
+                 Contact Section Ends
 ====================================================*/
