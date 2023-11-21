@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../Components/Header/Header";
 import Loader from "../Components/Loader/Loader";
+import Footer from "../Components/Footer/Footer";
 
 const Contact = () => {
   return (
@@ -59,17 +60,43 @@ const Contact = () => {
             </div>
             <div className="contactBox">
               <div className="boxContainer">
-
+                  <div className="boxIconHolder">
+                    <img src="assets/contact/envelopNormal.png" />
+                  </div>
+                  <div className="boxHeader">
+                    <p>Email Here</p>
+                  </div>
+                  <div className="boxDesc">
+                    <p>elevancetech@gmail.com</p>
+                  </div>
               </div>
               <div className="boxContainer">
-
+                  <div className="boxIconHolder">
+                    <img src="assets/contact/envelopNormal.png" />
+                  </div>
+                  <div className="boxHeader">
+                    <p>Location Here</p>
+                  </div>
+                  <div className="boxDesc">
+                    <p>xyz street,Kolkata,West Bengal</p>
+                    <p>India</p>
+                  </div>
               </div>
               <div className="boxContainer">
-
+                  <div className="boxIconHolder">
+                    <img src="assets/contact/envelopNormal.png" />
+                  </div>
+                  <div className="boxHeader">
+                    <p>Call Here</p>
+                  </div>
+                  <div className="boxDesc">
+                    <p>+91 877 784 1592</p>
+                  </div>
               </div>
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </Loader>
   );
