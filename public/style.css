@@ -466,6 +466,7 @@ body {
     rgba(12, 165, 157, 1) 62%,
     rgba(0, 168, 255, 1) 81%
   );
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -493,6 +494,109 @@ body {
   color: #fff;
   font-size: 16px;
   line-height: 1.8;
+}
+.testimonials {
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.testimonialCardContainer{
+  width:30%;
+  margin:0px 15px;
+}
+.testimonialCard {
+  width: 100%;
+  padding: 25px 50px;
+  color:#57647c;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.8;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.testimonialQuotes{
+  position: absolute;
+  top:-25px;
+  left:-25px;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  background-color: #08756f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonialQuotes img{
+  width:30px;
+  height:30px;
+}
+.testimonialRotate{
+  position: absolute;
+  width:20px;
+  height:20px;
+  bottom:-8px;
+  left:20px;
+  transform: rotateY(0deg) rotate(45deg);
+  background-color: #fff;
+}
+.testimonialUser{
+  width:100%;
+  padding-left: 6px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.userImage{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userImage img{
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+}
+.userDetails{
+  margin-left: 15px;
+}
+.userName{
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.userDesig{
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400px;
+}
+@media screen and (max-width:1024px) {
+  .testimonialHeader {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .testimonialCard {
+    padding:25px 30px;
+  }
+  .testimonialDesc {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 20px;
+  }
+  .testimonials {
+    padding:50px 10px;
+  }
+  .testimonialCardContainer{
+    width:100%;
+    padding:30px 10px;
+  }
 }
 /*====================================================
                  Tesimonial Section Ends
@@ -738,8 +842,9 @@ body {
   padding: 5px 10px;
   box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
 }
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color:    #57647c;
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #57647c;
 }
 .formTextBox textarea {
   width: 100%;
@@ -776,7 +881,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0px ;
+  margin: 30px 0px;
 }
 .boxContainer {
   text-align: center;
@@ -787,13 +892,13 @@ body {
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   background: #ffffff;
   padding: 40px 30px;
-  width:30%;
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-.boxIconHolder{
+.boxIconHolder {
   display: inline-block;
   width: 65px;
   height: 65px;
@@ -809,18 +914,18 @@ body {
   align-items: center;
   justify-content: center;
 }
-.boxIconHolder img{
-  width:25px;
-  height:25px;
+.boxIconHolder img {
+  width: 25px;
+  height: 25px;
 }
-.boxHeader{
-  width:100%;
+.boxHeader {
+  width: 100%;
   margin-bottom: 10px;
   font-size: 22px;
   font-weight: 700;
 }
-.boxDesc{
-  width:100%;
+.boxDesc {
+  width: 100%;
   font-size: 16px;
   color: #57647c;
 }
@@ -853,8 +958,8 @@ body {
   .formUnit {
     width: 100%;
   }
-  .boxContainer{
-    width:100%;
+  .boxContainer {
+    width: 100%;
     margin-bottom: 30px;
   }
 }
