@@ -1,0 +1,121 @@
+.benefitsSection{
+    width:100%;
+    min-height:100px;
+    padding:50px 20px 20px;
+    background-color: #fafafa;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.benefitsSectionReversed{
+    width:100%;
+    min-height:100px;
+    padding:20px 20px 50px;
+    background-color: #fafafa;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.benefitDesign{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.benefitDesignReversed{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.benefitsImg{
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefitsImg img{
+    width:100%;
+    height:100%;
+}
+.benefitsText{
+    width:60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.benefitsHeader{
+    width:70%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.benefitsDesc{
+    width:70%;
+    color:#57647c;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.benefitsUnitSection{
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.benefitsUnit{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.benefitsTick{
+    width:20px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0ca59d;
+}
+.benefitsTick img{
+    width:80%;
+    height: 80%;
+}
+.benefits{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #334754;
+}
+@media screen and (max-width:1024px) {
+    .benefitsSection,.benefitDesignReversed{
+        padding:20px 20px;
+    }
+    .benefitDesignReversed{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+ .benefitDesign{
+    width:100%;
+ }   
+ .benefitsText{
+    width:100%;
+    margin: 10px 0px;
+ }
+ .benefitsHeader,.benefitsDesc,.benefitsUnitSection{
+    width:100%;
+ }
+ .benefitsImg{
+    width:100%;
+    margin: 20px 0px ;
+ }
+ .benefitDesign{
+    display: none;
+}
+.benefitDesignReversed{
+    display: none;
+}
+}

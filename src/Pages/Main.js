@@ -3,6 +3,8 @@ import Header from "../Components/Header/Header";
 import Loader from "../Components/Loader/Loader";
 import Footer from "../Components/Footer/Footer";
 import Testimonials from "../Components/Testimonials/Testimonials";
+import Benefits from "../Components/BenefitsSection/Benefits";
+import BenefitsReversed from "../Components/BenefitsSection/BenefitsReversed";
 const Main = () => {
   return (
     <Loader>
@@ -81,6 +83,8 @@ const Main = () => {
             </div>
           </div>
         </div>
+        <Benefits />
+        <BenefitsReversed />
         <div className="pointsSection">
           <div className="pointsLeft">
             <div className="pointLeftUnit">

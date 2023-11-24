@@ -28,7 +28,7 @@ const Header = ({page}) => {
     <div className={`${isSticky ? "headerSticky" : "header"}`}>
       <div className="headerContainer">
         <div className="headerLogo" onClick={dropToggle}>
-          <img src="assets/main/logo.png" />
+          <img src="assets/main/logo_real.png"  className="logo"/>
           <img src="assets/main/hamburger.png" className="hamburger" />
         </div>
         <div className="headerLinks">
