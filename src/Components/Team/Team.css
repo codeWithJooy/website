@@ -1,0 +1,74 @@
+.teamSection{
+    width:100%;
+    padding:50px 20px;
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.teamHeader{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color:#33475B;
+}
+.teamDesc{
+    width:60%;
+    max-width: 600px;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    color:#57647c;
+}
+.teams{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.teamUnit{
+    width:250px;
+    margin:0px 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+.teamPic{
+    width:100%
+}
+.teamPic img{
+    width:100%;
+    height:auto;
+}
+.teamDetails{
+    width:100%;
+    padding:15px 0px;
+    background-color: #fff;
+}
+.teamName{
+    width:100%;
+    text-align: center;
+    font-size: 25px;
+    color:#33475B;
+    font-weight: bold;
+}
+.teamDesig{
+    width:100%;
+    text-align: center;
+    font-size: 18px;
+    color:#ffac00;
+    font-weight: bold;
+}
+@media screen and (max-width:1024px) {
+    .teamDesc{
+        width:100%;
+    }
+    .teamUnit{
+        margin-bottom: 20px;
+    }
+}
