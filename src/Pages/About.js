@@ -1,6 +1,11 @@
 import Header from "../Components/Header/Header";
 import React, { useState, useEffect } from "react";
 import Loader from "../Components/Loader/Loader";
+import Team from "../Components/Team/Team";
+import Testimonials from "../Components/Testimonials/Testimonials";
+import Footer from "../Components/Footer/Footer";
+import Benefits from "../Components/BenefitsSection/Benefits";
+import BenefitsReversed from "../Components/BenefitsSection/BenefitsReversed";
 const About = () => {
   return (
     <Loader>
@@ -17,7 +22,7 @@ const About = () => {
               <p>About Us</p>
             </div>
             <div className="aboutTextHeader">
-              <p>We've Been Thriving in 37 Years The Tech Area</p>
+              <p>We've Been Thriving for 3 Years The Tech Area</p>
             </div>
             <div className="aboutTextMain">
               <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
@@ -58,7 +63,13 @@ const About = () => {
               <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
             </div>
           </div>
+          
         </div>
+        <Benefits />
+        <BenefitsReversed />
+        <Team />
+        <Testimonials />
+        <Footer />
       </div>
     </Loader>
   );

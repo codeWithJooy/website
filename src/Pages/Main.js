@@ -5,6 +5,7 @@ import Footer from "../Components/Footer/Footer";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import Benefits from "../Components/BenefitsSection/Benefits";
 import BenefitsReversed from "../Components/BenefitsSection/BenefitsReversed";
+import Industry from "../Components/Industry/Industry";
 const Main = () => {
   return (
     <Loader>
@@ -166,6 +167,7 @@ const Main = () => {
             </div>
           </div>
         </div>
+        <Industry />
         <Testimonials />
         <Footer />
       </div>
