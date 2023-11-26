@@ -22,16 +22,18 @@ const About = () => {
               <p>About Us</p>
             </div>
             <div className="aboutTextHeader">
-              <p>We've Been Thriving for 3 Years The Tech Area</p>
+              <p>Beyond Websites:Building Digital Experiences That Resonate</p>
             </div>
             <div className="aboutTextMain">
-              <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+              <p>We are Elevance Tech, a passionate team dedicated to crafting innovative mobile and web solutions. With many products and websites, we have honed our expertise in developing user-centric web and mobile applications cross various domains.</p>
             </div>
+            <br />
             <div className="aboutTextMain">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis egestas ante, sed viverra nunc tincidunt nec nteger nonsed condimntum elit, sit amet feugiat lorem. Proin tempus sagittis velit vitae scelerisque.</p>
+              <p>Our journey has been fueled by a commitment to delivering high-quality apps that not only meet but exceed our client’s expectations. From home-based business units to enterprise, we’ve had the privilege of working with diverse business, creating unique and impactful experience.</p>
             </div>
+            <br/>
             <div className="aboutTextMain">
-              <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+              <p>We are here to share our insights, learn from the community, and offer our expertise in the ever evolving world of web and mobile app development.</p>
             </div>
           </div>
           <div className="aboutImage">

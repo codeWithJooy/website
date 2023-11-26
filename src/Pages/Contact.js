@@ -23,8 +23,7 @@ const Contact = () => {
             </div>
             <div className="contactTextDesc">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Feel free to drop your questions or share your thoughts. We’re excited to connect with fellow enthusiasts and professionals!
               </p>
             </div>
           </div>

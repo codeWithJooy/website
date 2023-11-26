@@ -732,7 +732,7 @@ body {
 }
 
 .aboutText {
-  width: 40%;
+  width: 60%;
 }
 .aboutTextTop {
   width: 100%;
@@ -742,7 +742,7 @@ body {
 }
 .aboutTextHeader {
   width: 100%;
-  max-width: 520px;
+  max-width: 620px;
   margin-bottom: 30px;
   font-size: 40px;
   font-weight: 700;
@@ -754,7 +754,7 @@ body {
   line-height: 1.6;
 }
 .aboutImage {
-  width: 60%;
+  width: 40%;
 }
 .aboutImage img {
   height: 100%;
