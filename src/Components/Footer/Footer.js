@@ -82,13 +82,13 @@ const Footer=()=>{
           <div className="footerUnitBorder"></div>
           <div className="footerUnitLinks">
             <div className="footerLink">
-              <a>2750 Quadra Street Victoria, Canada</a>
+              <a>Roy street,Bhowanipore,Kolkata,West Bengal, Canada</a>
             </div>
             <div className="footerLink">
-              <a>alpas@gmail.com</a>
+              <a>aelevancetech@gmail.com</a>
             </div>
             <div className="footerLink">
-              <a> +44 587 154756</a>
+              <a>+91 877 784 1592</a>
             </div>
           </div>
         </div>

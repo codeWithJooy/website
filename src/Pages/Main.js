@@ -18,7 +18,7 @@ const Main = () => {
                 <p>Artificial Intelligence (AI)</p>
               </div>
               <div className="contentMain">
-                <p>Work smarter, together.</p>
+                <p>Catalyst To, Elevate.</p>
               </div>
               <div className="contentDesc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
