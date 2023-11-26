@@ -40,33 +40,7 @@ const About = () => {
             <img src="assets/about/about.png" />
           </div>
         </div>
-        <div className="aboutCardSection">
-        <div className="aboutCard">
-            <div className="aboutCardHeader">
-               <p>Our History</p>
-            </div>
-            <div className="aboutCardDesc">
-              <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-            </div>
-          </div>
-          <div className="aboutCard">
-            <div className="aboutCardHeader">
-               <p>Our History</p>
-            </div>
-            <div className="aboutCardDesc">
-              <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-            </div>
-          </div>
-          <div className="aboutCard">
-            <div className="aboutCardHeader">
-               <p>Our History</p>
-            </div>
-            <div className="aboutCardDesc">
-              <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-            </div>
-          </div>
-          
-        </div>
+        
         <Benefits />
         
         <Team />

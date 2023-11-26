@@ -8,8 +8,7 @@ const Team = () => {
       </div>
       <div className="teamDesc">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Get acquainted with the passionate experts behind our groundbreaking solutions.
         </p>
       </div>
       <div className="teams">

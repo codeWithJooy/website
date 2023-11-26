@@ -1,6 +1,9 @@
 import React from "react";
 
 const Footer=()=>{
+  const handleClick=(link)=>{
+    window.open(link)
+  }
     return(
         <div className="footer">
         <div className="footerMain">
@@ -15,17 +18,17 @@ const Footer=()=>{
             </p>
           </div>
           <div className="footerSocial">
-            <div className="socialUnit">
+            <div className="socialUnit" onClick={()=>handleClick("https://www.facebook.com/profile.php?id=61553838007361&sk=about")}>
               <img src="assets/footer/facebook.png" />
             </div>
-            <div className="socialUnit">
-              <img src="assets/footer/facebook.png" />
+            <div className="socialUnit" onClick={()=>handleClick("https://www.linkedin.com/company/101025795/admin/feed/posts/")}>
+              <img src="assets/footer/linkedin.png" />
             </div>
-            <div className="socialUnit">
-              <img src="assets/footer/facebook.png" />
+            <div className="socialUnit" onClick={()=>handleClick("https://elevancetech.quora.com/?ch=3&oid=4686301&share=396067ef&srid=3dHUuO&target_type=tribe")}>
+              <img src="assets/footer/quora.png" />
             </div>
-            <div className="socialUnit">
-              <img src="assets/footer/facebook.png" />
+            <div className="socialUnit" onClick={()=>handleClick("https://twitter.com/ElevanceT4395")}>
+              <img src="assets/footer/twitter.png" />
             </div>
           </div>
         </div>
@@ -82,7 +85,7 @@ const Footer=()=>{
           <div className="footerUnitBorder"></div>
           <div className="footerUnitLinks">
             <div className="footerLink">
-              <a>Roy street, Bhowanipore, Kolkata, West Bengal, Canada</a>
+              <a>Roy street, Bhowanipore, Kolkata, West Bengal, India</a>
             </div>
             <div className="footerLink">
               <a>elevancetech@gmail.com</a>
