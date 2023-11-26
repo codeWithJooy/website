@@ -77,7 +77,7 @@ const Contact = () => {
                     <p>Location Here</p>
                   </div>
                   <div className="boxDesc">
-                    <p>xyz street,Kolkata,West Bengal</p>
+                    <p>Roy street,Bhowanipore,Kolkata,West Bengal</p>
                     <p>India</p>
                   </div>
               </div>
