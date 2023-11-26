@@ -51,24 +51,29 @@ const Main = () => {
           </div>
           <div className="featuresContainer">
             <div className="featureUnit">
-              <img src="assets/features/feature1.png" />
+              <img src="assets/features/feature2.png" />
               <div className="featureUnitHeader">
                 <p>Hospitality</p>
               </div>
               <div className="featureUnitDesc">
                 <p>
-                From rent collection to maintenance requests, our app simplifies landlord-tenant interactions. Offering tenants a user-friendly platform for hassle-free renting experiences
+                  From rent collection to maintenance requests, our app
+                  simplifies landlord-tenant interactions. Offering tenants a
+                  user-friendly platform for hassle-free renting experiences
                 </p>
               </div>
             </div>
             <div className="featureUnit">
-              <img src="assets/features/feature2.png" />
+              <img src="assets/features/feature1.png" />
               <div className="featureUnitHeader">
                 <p>Education</p>
               </div>
               <div className="featureUnitDesc">
                 <p>
-                Empower your academic journey with our student tutor mobile app. From homework help to exam preparation, access a convenient and effective learning platform tailored to your needs.
+                  Empower your academic journey with our student tutor mobile
+                  app. From homework help to exam preparation, access a
+                  convenient and effective learning platform tailored to your
+                  needs.
                 </p>
               </div>
             </div>
@@ -79,49 +84,53 @@ const Main = () => {
               </div>
               <div className="featureUnitDesc">
                 <p>
-                Simplify your e-commerce operations with our order management system. It centralizes and automates tasks, ensuring efficient order processing and inventory control.
+                  Simplify your e-commerce operations with our order management
+                  system. It centralizes and automates tasks, ensuring efficient
+                  order processing and inventory control.
                 </p>
               </div>
             </div>
           </div>
         </div>
         <Benefits />
-      
+
         <div className="pointsSection">
           <div className="pointsLeft">
             <div className="pointLeftUnit">
               <div className="pointsLeftTop">
-                <p>Market Analysis</p>
+                <p>Customer-Centric Approach</p>
                 <img src="assets/points/icon1.png" />
               </div>
               <div className="pointsLeftDesc">
                 <p>
-                  Lorem ipsum dolor sit amet consem et ctetuering adipisc elit
-                  sed diam.
+                  Establishing strong client relationships through effective
+                  communication, understanding client goals, and delivering
+                  tailored, high-quality solutions.
                 </p>
               </div>
             </div>
             <div className="pointLeftUnit">
               <div className="pointsLeftTop">
-                <p>Financial Advise</p>
+                <p>Scalability and Flexibility</p>
                 <img src="assets/points/icon2.png" />
               </div>
               <div className="pointsLeftDesc">
                 <p>
-                  Lorem ipsum dolor sit amet consem et ctetuering adipisc elit
-                  sed diam.
+                  Building solutions that are scalable, adaptable, and capable
+                  of accommodating growth and evolving business needs.
                 </p>
               </div>
             </div>
             <div className="pointLeftUnit">
               <div className="pointsLeftTop">
-                <p>Market Analysis</p>
+                <p>Robust Security Measures</p>
                 <img src="assets/points/icon3.png" />
               </div>
               <div className="pointsLeftDesc">
                 <p>
-                  Lorem ipsum dolor sit amet consem et ctetuering adipisc elit
-                  sed diam.
+                  Implementing stringent security protocols to safeguard client
+                  data and ensure the integrity and safety of developed
+                  applications.
                 </p>
               </div>
             </div>
@@ -133,36 +142,38 @@ const Main = () => {
             <div className="pointRightUnit">
               <div className="pointsRightTop">
                 <img src="assets/points/icon4.png" />
-                <p>Market Analysis</p>
+                <p>Agile Development Practices</p>
               </div>
               <div className="pointsRightDesc">
                 <p>
-                  Lorem ipsum dolor sit amet consem et ctetuering adipisc elit
-                  sed diam.
+                  Embracing agile methodologies for rapid iterations, enabling
+                  responsiveness to client feedback and market shifts.
                 </p>
               </div>
             </div>
             <div className="pointRightUnit">
               <div className="pointsRightTop">
                 <img src="assets/points/icon5.png" />
-                <p>Financial Advise</p>
+                <p> Diverse Technologies</p>
               </div>
               <div className="pointsRightDesc">
                 <p>
-                  Lorem ipsum dolor sit amet consem et ctetuering adipisc elit
-                  sed diam.
+                  Proficiency across various tech stacks and platforms to
+                  develop versatile and scalable solutions tailored to client
+                  needs.
                 </p>
               </div>
             </div>
             <div className="pointRightUnit">
               <div className="pointsRightTop">
                 <img src="assets/points/icon6.png" />
-                <p>Market Analysis</p>
+                <p>User-Centric Design</p>
               </div>
               <div className="pointsRightDesc">
                 <p>
-                  Lorem ipsum dolor sit amet consem et ctetuering adipisc elit
-                  sed diam.
+                  Prioritizing user experience and interface design, ensuring
+                  intuitive and engaging websites and apps that resonate with
+                  target audiences.
                 </p>
               </div>
             </div>
