@@ -8,20 +8,20 @@ const Industry=()=>{
          <p>Industries We Serve</p>
        </div>
        <div className='industryDesc'>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         <p>Mobile applications and websites are utilized across various industries. Some of the sectors we predominantly serve include</p>
        </div>
        <div className='industryPoints'>
          <div className='industryUnits'>
-            <p>Machine Learning</p>
+            <p>Retail and E-commerce</p>
          </div>
          <div className='industryUnits'>
-            <p>Machine Learning</p>
+            <p>Education</p>
          </div>
          <div className='industryUnits'>
-            <p>Machine Learning</p>
+            <p>Travel and Hospitality</p>
          </div>
          <div className='industryUnits'>
-            <p>Machine Learning</p>
+            <p>Food and Beverage</p>
          </div>
        </div>
     </div>
