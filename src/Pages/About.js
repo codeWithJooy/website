@@ -68,7 +68,7 @@ const About = () => {
           
         </div>
         <Benefits />
-        <BenefitsReversed />
+        
         <Team />
         <Testimonials />
         <Footer />

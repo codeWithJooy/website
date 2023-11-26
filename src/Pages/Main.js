@@ -53,43 +53,40 @@ const Main = () => {
             <div className="featureUnit">
               <img src="assets/features/feature1.png" />
               <div className="featureUnitHeader">
-                <p>Departments</p>
+                <p>Hospitality</p>
               </div>
               <div className="featureUnitDesc">
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel adipiscing aliqua.
+                From rent collection to maintenance requests, our app simplifies landlord-tenant interactions. Offering tenants a user-friendly platform for hassle-free renting experiences
                 </p>
               </div>
             </div>
             <div className="featureUnit">
               <img src="assets/features/feature2.png" />
               <div className="featureUnitHeader">
-                <p>Departments</p>
+                <p>Education</p>
               </div>
               <div className="featureUnitDesc">
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel adipiscing aliqua.
+                Empower your academic journey with our student tutor mobile app. From homework help to exam preparation, access a convenient and effective learning platform tailored to your needs.
                 </p>
               </div>
             </div>
             <div className="featureUnit">
               <img src="assets/features/feature3.png" />
               <div className="featureUnitHeader">
-                <p>Departments</p>
+                <p>E-Commerce</p>
               </div>
               <div className="featureUnitDesc">
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel adipiscing aliqua.
+                Simplify your e-commerce operations with our order management system. It centralizes and automates tasks, ensuring efficient order processing and inventory control.
                 </p>
               </div>
             </div>
           </div>
         </div>
         <Benefits />
-        <BenefitsReversed />
+      
         <div className="pointsSection">
           <div className="pointsLeft">
             <div className="pointLeftUnit">

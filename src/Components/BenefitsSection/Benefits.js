@@ -10,12 +10,11 @@ const Benefits = () => {
       </div>
       <div className="benefitsText">
         <div className="benefitsHeader">
-          <p>Make your business more competitive and sustainable.</p>
+          <p>Empower your business to thrive competitively and endure for the long haul</p>
         </div>
         <div className="benefitsDesc">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Elevate your business with our transformative web and app development services. Unleash competitive prowess and ensure sustained success in the digital landscape.
           </p>
         </div>
         <div className="benefitsUnitSection">
@@ -24,7 +23,7 @@ const Benefits = () => {
               <img src="assets/main/read.png" />
             </div>
             <div className="benefits">
-              <p>Influencing Sales</p>
+              <p>Innovation with Security</p>
             </div>
           </div>
           <div className="benefitsUnit">
@@ -32,7 +31,7 @@ const Benefits = () => {
               <img src="assets/main/read.png" />
             </div>
             <div className="benefits">
-              <p>Influencing Sales</p>
+              <p>Technical Expertise</p>
             </div>
           </div>
         </div>
@@ -42,7 +41,7 @@ const Benefits = () => {
               <img src="assets/main/read.png" />
             </div>
             <div className="benefits">
-              <p>Influencing Sales</p>
+              <p>Agile Methodologies</p>
             </div>
           </div>
           <div className="benefitsUnit">
@@ -50,7 +49,7 @@ const Benefits = () => {
               <img src="assets/main/read.png" />
             </div>
             <div className="benefits">
-              <p>Influencing Sales</p>
+              <p>Client-Centric</p>
             </div>
           </div>
         </div>
