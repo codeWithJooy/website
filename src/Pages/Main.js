@@ -43,8 +43,10 @@ const Main = () => {
           </div>
           <div className="featureHeaderDesc">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Dive into a realm of custom-built web and mobile applications,
+              designed to revolutionize your online presence. Our solutions
+              blend creativity with functionality to redefine digital
+              experiences.
             </p>
           </div>
           <div className="featuresContainer">

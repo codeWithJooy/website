@@ -312,6 +312,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .featureHeaderText p {
   font-size: 40px;
