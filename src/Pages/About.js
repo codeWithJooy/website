@@ -22,7 +22,7 @@ const About = () => {
               <p>About Us</p>
             </div>
             <div className="aboutTextHeader">
-              <p>Beyond Websites:Building Digital Experiences That Resonate</p>
+              <p>Beyond Websites: Building Digital Experiences That Resonate</p>
             </div>
             <div className="aboutTextMain">
               <p>We are Elevance Tech, a passionate team dedicated to crafting innovative mobile and web solutions. With many products and websites, we have honed our expertise in developing user-centric web and mobile applications cross various domains.</p>

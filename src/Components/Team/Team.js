@@ -27,6 +27,19 @@ const Team = () => {
         </div>
         <div className="teamUnit">
           <div className="teamPic">
+            <img src="assets/about/pic.jpg" />
+          </div>
+          <div className="teamDetails">
+            <div className="teamName">
+              <p>Sankha Ghosh</p>
+            </div>
+            <div className="teamDesig">
+              <p>Co-Founder,BDM</p>
+            </div>
+          </div>
+        </div>
+        <div className="teamUnit">
+          <div className="teamPic">
             <img src="assets/about/team3.jpg" />
           </div>
           <div className="teamDetails">
