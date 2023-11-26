@@ -85,7 +85,7 @@ const Footer=()=>{
               <a>Roy street,Bhowanipore,Kolkata,West Bengal, Canada</a>
             </div>
             <div className="footerLink">
-              <a>aelevancetech@gmail.com</a>
+              <a>elevancetech@gmail.com</a>
             </div>
             <div className="footerLink">
               <a>+91 877 784 1592</a>

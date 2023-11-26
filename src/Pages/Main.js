@@ -15,16 +15,18 @@ const Main = () => {
           <div className="topContent">
             <div className="topContentText">
               <div className="contentHead">
-                <p>Artificial Intelligence (AI)</p>
+                <p>Digital Transformation</p>
               </div>
               <div className="contentMain">
                 <p>Catalyst To, Elevate.</p>
               </div>
               <div className="contentDesc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra
-                maecenas accumsan lacus vel facilisis.
+                We are the catalyst that fuels unparalleled elevation converting
+                you digitally, prospelling aspirations to remarkable heights.
+                Our unwavering commitment to develop website and mobile
+                application expertise serves as a driving force behind
+                transformative solutions. With us, witness the power to
+                transcend limits of digitalization.
               </div>
               <div className="contentQuote">
                 <button>Get Started</button>
