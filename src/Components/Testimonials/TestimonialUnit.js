@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TestimonialUnit=()=>{
+const TestimonialUnit=({name="Abhshek Hazra",designation="Co-Founder",description})=>{
     return(
         <div className="testimonialCardContainer">
         <div className="testimonialCard">
@@ -9,9 +9,7 @@ const TestimonialUnit=()=>{
           </div>
           <div className="testimonialRotate"></div>
           <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit
-            voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo."
+           {description}
           </p>
         </div>
         <div className="testimonialUser">
@@ -20,10 +18,10 @@ const TestimonialUnit=()=>{
           </div>
           <div className="userDetails">
             <div className="userName">
-              <p>Abhishek Hazra</p>
+              <p>{name}</p>
             </div>
             <div className="userDesig">
-               <p>Co-Founder,Elevance Tech</p>
+               <p>{designation}</p>
             </div>
           </div>
         </div>

@@ -646,6 +646,7 @@ body {
   font-size: 15px;
   color: #fff;
   margin: 15px 0px;
+  margin-bottom: 25px;
 }
 .footerSocial {
   width: 100%;
@@ -666,6 +667,11 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.footerLogo img{
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
 }
 .socialUnit:hover {
   background-color: #ffac00;

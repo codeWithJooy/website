@@ -5,7 +5,7 @@ const Footer=()=>{
         <div className="footer">
         <div className="footerMain">
           <div className="footerLogo">
-            <img src="assets/main/logo.png" />
+            <img src="assets/main/logo_real.png" />
           </div>
           <div className="footerDesc">
             <p>
@@ -82,7 +82,7 @@ const Footer=()=>{
           <div className="footerUnitBorder"></div>
           <div className="footerUnitLinks">
             <div className="footerLink">
-              <a>Roy street,Bhowanipore,Kolkata,West Bengal, Canada</a>
+              <a>Roy street, Bhowanipore, Kolkata, West Bengal, Canada</a>
             </div>
             <div className="footerLink">
               <a>elevancetech@gmail.com</a>
