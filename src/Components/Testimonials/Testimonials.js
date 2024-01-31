@@ -32,7 +32,7 @@ const Testimonials = () => {
           }
         />
         <TestimonialUnit
-          name={"Sankha Ghosh"}
+          name={"Sanky G"}
           designation={"CEO,Eommerce App"}
           description={
             "We engaged Elevance to develop our eCommerce app, and we were blown away by the results. Their team's attention to detail and understanding of our target market was exceptional. The app they created is not only visually appealing but also incredibly intuitive, resulting in a significant boost in our online sales. Highly impressed and satisfied!"
